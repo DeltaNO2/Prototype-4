@@ -391,7 +391,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 99bdc97915db44ddab02496effc9289b, type: 2}
+  - {fileID: 2100000, guid: 4e32d3f8720af4903b285480f4a771e4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -537,6 +537,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 6951510196717539951, guid: 5b0aa157a1d5e4cfc988112522eefb9d,
+    type: 3}
+  enemyCount: 0
+  waveNumber: 1
+  powerupPrefab: {fileID: 4269908495622751079, guid: c4fba7fa9982640a5a8351e6aa5d060e,
     type: 3}
 --- !u!4 &1168612976
 Transform:
@@ -798,6 +802,25 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 8878a37eb67ddac4ead51890a31d6a18, type: 3}
+--- !u!1 &1878455280 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1742899641471652, guid: 923deea38dc6a8843b15db7638919c1e,
+    type: 3}
+  m_PrefabInstance: {fileID: 159997970}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1878455284
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1878455280}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.6607849, y: 0.036732007, z: 0.66078484}
+  m_Center: {x: 0.00000008940697, y: 0, z: 0.000000044703484}
 --- !u!1001 &6951510196353278275
 PrefabInstance:
   m_ObjectHideFlags: 0
